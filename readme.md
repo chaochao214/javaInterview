@@ -7,6 +7,57 @@
 | [小公司面试题](#小公司面试题) | [面试资料](#面试资料)|[面试记录](#面试记录) |
 
 ## 小公司面试题
+
+#### 2020 0428点米网络科技& **易博天下面试通知** 
+```
+Arrays.aslist  new arraylist的区别
+#数组转换为list,元素不可变
+Hashmap hashtable correnthashmap的key是否为null
+#hashmap可以 hashtable,conrrenthashmap不行/原因是高并发的数据结构,不能为null 
+hashset怎么保证元素唯一
+#hashcode()方法 euqals()方法
+redis的使用场景，各种数据类型用了哪些redis怎么序列化使用string的时候
+#实现Serializable接口
+redis各种数据类型对应场景
+#
+ string 做缓存web和数据库的中间层, 计数
+ list 双端链表结构,排行榜,消息队列,lpop和rPush可以使用,实现队列的功
+  set 去重元素,抽奖
+  zset 需要排序的,最热门的帖子
+  hash 对象的,key -value
+Spring怎么操作事物
+# Tranction接口 @tranction注解
+Springboot怎么配置
+#yml
+Springboot添加组件
+#
+Springboot统一处理异常
+#@ControllerAdvice  控制器发生异常将会拦截
+Springboot怎么读取yml @value@properties
+Springboot application yml 读取文件配置优先级
+# bootstrap.yml> application.yml 
+# 如果在不同的目录中存在多个配置文件，它的读取顺序是：
+  1、config/application.properties（项目根目录中config目录下）
+  2、config/application.yml
+  3、application.properties（项目根目录下）
+  4、application.yml
+  5、resources/config/application.properties（项目resources目录中config目录下）
+  6、resources/config/application.yml
+  7、resources/application.properties（项目的resources目录下）
+  8、resources/application.yml
+说一下对springboot的理解
+
+springsecurity 和spring的关系
+springsecurity如何配置
+
+用过es,说一下 es的版本2.5太老了
+es mappiping 失效
+#面到一半的时候觉得问题太细节太偏了,心虚认怂
+建议:多刷面试题
+建立在修改一下丰富项目经验
+
+```
+
 #### 2019年0806花儿某司面试题
 
 ```
