@@ -8,6 +8,102 @@
 
 ## 小公司面试题
 
+#### 2020 0430 开思时代
+```
+springboot用在项目中哪个部分?
+部署的架构
+redis在项目中哪里用到, 为什么要用redis
+redis简单的用还是知道更深层次的东西
+redis除了做缓存还做了不同的场景
+redis分布式锁怎么实现的?
+redis 的hash槽是什么概念
+redis 缓存的淘汰策略
+集群有没有了解过,redis怎么搭建集群
+redis cluster这种的集群了解么
+集群间的复制
+rabbitMQ 是用来做什么?发邮件
+为什么要用rabbitMQ ? 除了减轻数据库压力,当初选型为什么要用消息中间件
+架构是se设计的?没有讨论过为什么这么设计? 
+rabbitMQ是怎么使用的? 
+rabbitMQ的使用场景
+rabbitMQ消息丢失的场景, 一直是可靠的么? 如何保证消息必答必送的
+activeMQ和rabbitMQ的区别,kafka, 怎么选型
+rabbitMQ支持延迟消息,如何实现延迟消息,activeMQ呢
+MQ中的实现队列怎么实现的
+
+为什么要使用springboot
+springboot如何做到的? 引入一个mybatis的starter ,redis的starter 
+为什么引入一个starter加一个配置就可以用了,这是怎么实现的
+springboot启动的时候怎么知道找到redis启动入口
+有没有自定义过starter,打包的时候引入一个,就可以自动打包
+怎么拿springboot yml 配置的数值 @properties @value 
+能将整个配置映射么用的哪个注解
+springboot 的UT ?没有用过怎么保证代码质量
+单元测试?怎么写? 
+tdd这种模式了解过么?
+
+springcloud 微服务接触过么,哪些组件 
+微服务提供了哪些组件
+eureka了解么? 做什么用? 怎么注册的?底层怎么实现的?保护机制怎么做的
+网关这块?zoo 使用过么 ,zuul 的核心是什么,怎么转发的 zuulservlet
+
+分布式协议, 分布式理论,锁啊 
+cap是什么东西, 为什么只能保证其中两个?
+eureka使用了cap哪两个原则?
+分布式的一直性协议?zab
+zookeeper是做什么的?zookeepr底层怎么存, 和dubbo一起用的时候存了什么信息?
+zk存了服务信息,服务挂掉了怎么处理?
+
+bean的生命周期
+springmvc怎么处理请求 
+spring 的事件机制? event  
+
+线程池的底层原理?
+线程提交任务,线程池怎么执行?
+线程池的拒绝策略? 线程池里面的队列? 是什么队列 
+threadPoolExecutor 和submit如何用的
+
+并发锁用过哪些?
+synchronize 怎么使用? 锁都是用用到对象上
+锁 同步方法和同步代码块区别?
+synchronize的底层工作机制? 
+lock用过哪些锁?
+jvm如果内存泄漏, 怎么定位
+
+es倒排索引 ,es的底层是什么, 
+es性能调优
+建议: 
+之前做的工具,进入互联网行业多看分布式
+```
+#### 2020 0430 巨鼎医疗
+equals()和hashcode()的区别
+hashcode是什么? 
+` 1、hashCode的存在主要是用于查找的快捷性，如Hashtable，HashMap等，hashCode是用来在散列存储结构中确定对象的存储地址的；
+`2、如果两个对象相同，就是适用于equals(java.lang.Object) 方法，那么这两个对象的hashCode一定要相同；
+`3、如果对象的equals方法被重写，那么对象的hashCode也尽量重写，并且产生hashCode使用的对象，一定要和equals方法中使用的一致，否则就会违反上面提到的第2点；
+`4、两个对象的hashCode相同，并不一定表示两个对象就相同，也就是不一定适用于equals(java.lang.Object) 方法，只能够说明这两个对象在散列存储结构中，如Hashtable，他们“存放在同一个篮子里”。
+
+`再归纳一下就是hashCode是用于查找使用的，而equals是用于比较两个对象的是否相等的。以下这段话是从别人帖子回复拷贝过来的：
+
+hashcode 值一样 两个数值是否一样
+thread类和runnable 接口的区别
+用的是别人封装好的线程池?
+线程的异步处理? 采用什么方式?@Async
+runnable接口和thread类的区别?推荐使用哪个? 
+线程安全?
+spring 源码了解过哪些?
+springmvc底层
+
+100万条数据只留下一条
+`先建立索引
+ `Insertinto Table2 select * from Table1 group by 重复字段名称 limit `100000
+一个订单表很多数据怎么分表存储?
+存储过程和sql直接访问的区别 ?
+ 索引哪些类型? 
+`全文 b-t
+外键为什么尽量不用?什么场景用?
+
+
 #### 2020 0428点米网络科技& **易博天下面试通知** 
 ```
 Arrays.aslist  new arraylist的区别
