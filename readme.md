@@ -11,14 +11,30 @@
 #### 2020 0430 开思时代
 ```
 springboot用在项目中哪个部分?
+` 1.有spring的地方 2.javaweb 3.微服务
 部署的架构
+`
 redis在项目中哪里用到, 为什么要用redis
+` 1.热点数据缓存 2.限时业务, expire 设置一个工具的时间.3.incrby 计数器 4.zset排行榜 5.分`布式锁setnx  6. 延时操作  . 7分页.模糊 zrangebylex 8.点赞 模糊  9 模糊list push list `pop 
 redis简单的用还是知道更深层次的东西
 redis除了做缓存还做了不同的场景
 redis分布式锁怎么实现的?
+
 redis 的hash槽是什么概念
+` Redis 集群中内置了 16384 个哈希槽,fd，当需要在 Redis 集群中放置一个 key-`value时，redis 先对 key 使用 crc16 算法算出一个结果，然后把结果对 16384 求``余数，这样每个 key 都会对应一个编号在 0-16383 之间的哈希槽，redis 会根据节点`数量大致均等的将哈希槽映射到不同的节点。
+
 redis 缓存的淘汰策略
+` redis内存超出物理内存限制的时候,内存和磁盘数据交换性能急剧下降,几种策 
+`  novication  不会继续写服务,读数据继续进行
+` volatile-lru # 尝试淘汰设置了过期时间的 key，最少使用的 key 优先被淘汰。没  ` 有设置过期时间的 key 不会被淘汰，这样可以保证需要持久化的数据不会突然丢失。
+` volatile-ttl # 跟上面一样，除了淘汰的策略不是 LRU，而是 key 的剩余寿命 ttl ` 的值，ttl 越小越优先被淘汰。
+` volatile-random # 跟上面一样，不过淘汰的 key 是过期 key 集合中随机的 key。
+` # volatile策略只会针对带过期时间的 key 进行淘汰
+`  allkeys-lru 区别于 volatile-lru，这个策略要淘汰的 key 对象是全体的 key `  ` 集合，而不只是过期的 key 集合。这意味着没有设置过期时间的 key 也会被淘汰。
+` allkeys-random 跟上面一样，不过淘汰的策略是随机的 key。
+` # allkeys策略会对所有的 key 进行淘汰
 集群有没有了解过,redis怎么搭建集群
+`三种集群方式  主从复制 
 redis cluster这种的集群了解么
 集群间的复制
 rabbitMQ 是用来做什么?发邮件
