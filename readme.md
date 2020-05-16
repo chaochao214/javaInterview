@@ -8,7 +8,187 @@
 
 ## 面试题
 
-#### 0511  下午 深圳掌众智能科技股份公司
+####  0516 睿程时代  初试
+
+ 面试很随意, 问了很多api ? 记得不太清楚了
+
+mysql查询替换用什么方法   replace
+
+ union unionAll 有什么区别 ? union返回不允许重复的
+
+ 声明式事务和编程式事务?
+
+ ioc几种注入方式?  https://www.cnblogs.com/jiangzhaowei/p/9629950.html
+
+ mybatis  动态SQL?  foreach都有什么属性
+
+map的key唯一么, 是否可以为空 
+
+ map怎么遍历
+
+thread  run 和start 什么区别?
+
+ final关键字是干什么的? 
+
+###### final关键字可以用来修饰类、方法和变量（包括成员变量和局部变量 
+
+#### 0515  晚七点  创铁科技 
+
+ 实例变量和静态变量 
+
+ https://blog.csdn.net/ole_triangle_java/article/details/79507608 
+
+ == 和equals  
+
+​    https://www.cnblogs.com/tian-ci/p/10543121.html 
+
+同步和异步
+
+ 
+
+引用传递值传递
+
+bean的生命周期 
+
+事务的隔离级别, 具体
+
+####  0515  下午五点   极简汇率  初试
+
+ 聊的面比较广, 但是没有深挖
+
+#### 0515 下午四点 深科技
+
+ java为什么跨平台
+
+ c++ c了解过么? 
+
+ jvm回收机制? jvm 怎么判断对象是可回收的? 然后用什么算法回收? 
+
+ jvm区域划分 ? 程序计数器用来干嘛的? 
+
+ arraylist 和linkedlist 
+
+arraylist为什么查询快?  O(1)的复杂度? 
+
+ 手写双向链表?     class node  {   Node firstNode,Node lastNode , int size }
+
+lastnode的数据类型?
+
+ioc aop ? 
+
+aop的实现?  动态代理哪两种? 
+
+spring全家桶  怎么处理http 请求?  
+
+spring 的HTTPservlet 实现了servlet 接口,  tomcat定义了一些读取servlet的方法
+
+springmvc的步骤? 
+
+MySQL 的使用版本? 默认引擎?
+
+innodb和  mysam 区别? 
+
+innodb锁的级别? 行锁还是 表锁?  mysam 是表锁还是行锁?
+
+索引的匹配规则? 怎么让索引生效?
+
+redis 持久化策略?
+
+业务场景 : 如何防止用户抓包篡改数据?  md5加密特征值比对 
+
+ 如果抓包while() 刷接口,怎么处理? 限制ip
+
+限制ip 如果防止误杀?
+
+对我的评价?  
+
+jvm 答得不好,数据库引擎这块需要加强
+
+java基础和框架挺好的
+
+#### 0515上午懒人易健  
+
+面试官不知道怎么问
+
+我一通乱讲
+
+#### 0514   上午 某金融外包 名字懒得记 练手用  复试
+
+ JUC下常用的api ?  
+
+concreentHashMap为什么比hashTable 快?  
+
+ synchronized 重量级锁还是轻量级锁,锁升降级?
+
+cas了解过么? cas怎么解决线程冲突
+
+java基础类型并发情况下使用的方法?Integer 被改写?
+
+java的反射机制?  静态代理 动态代理的区别? 应用场景? 
+
+spring的aop?
+
+springboot怎么自动化配置? 
+
+springboot怎么不使用默认的tomcat?
+
+ 微服务? 
+
+微服务带来哪些问题? 
+
+ 分布式系统cap无法三个都实现?
+
+如何保证分布式数据库事务一致性?  读一致性要求不高, 写一致性要求很高? 
+
+听说过微服务理论servcie match 网格服务, 栅格微服务? 
+
+ 服务间调用feign 负载均衡策略? 什么组件   ribbon .,  feign 集成了 ribbon  
+
+有没有 接触过 其他的注册中心?  springcloud alibaba中其他注册中心
+
+redis单线程为什么这么快?
+
+redis 后面的版本还是多线程? 多个io复用实现很快?
+
+
+
+
+
+
+
+#### 0514   上午 某金融外包 名字懒得记 练手用 初试 
+
+ 集合
+
+hashtable 和concrorrenthashmap 怎么实现的, 锁加到哪里了?
+
+linkedlist怎么实现的?  E  item;  Node noxt ; Node prev; 
+
+迭代器?和for的区别? 
+
+一边遍历一边删除 用迭代器还是for比较好?     这里
+
+aop通知方式类型? 
+
+拦截器过滤器的区别?  哪个先执行? 
+
+代码实现事务用哪个注解?   
+
+mysql索引的数据结构? b+ 
+
+索引的类型? 
+
+ 复合索引生效原则?优化规则? 
+
+linux常用命令
+
+
+
+#### 0512 上午 创互科技
+
+hr 简单聊了一会儿让我回去了,很不专业
+
+####  0511  下午 深圳掌众智能科技股份公司
 
 自己哪些方面比较擅长?   
 centos7 默认的内核版本?   
