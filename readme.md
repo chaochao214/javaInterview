@@ -8,6 +8,14 @@
 
 ## 面试题
 
+
+
+####  0517   极简汇率  CTO 面试 
+
+简单聊了聊,  感觉有点忌讳外包出身,  说外包的环境限制, 学到的东西很浅
+
+
+
 ####  0516 睿程时代  初试
 
  面试很随意, 问了很多api ? 记得不太清楚了
@@ -44,7 +52,7 @@ thread  run 和start 什么区别?
 
 同步和异步
 
- 
+  https://blog.csdn.net/yexiangcsdn/article/details/84971827 
 
 引用传递值传递
 
@@ -86,7 +94,9 @@ springmvc的步骤?
 
 MySQL 的使用版本? 默认引擎?
 
-innodb和  mysam 区别? 
+innodb和  myisam 区别? 
+
+ https://blog.csdn.net/qq_35642036/article/details/82820178 
 
 innodb锁的级别? 行锁还是 表锁?  mysam 是表锁还是行锁?
 
@@ -119,6 +129,8 @@ java基础和框架挺好的
 concreentHashMap为什么比hashTable 快?  
 
  synchronized 重量级锁还是轻量级锁,锁升降级?
+
+  
 
 cas了解过么? cas怎么解决线程冲突
 
