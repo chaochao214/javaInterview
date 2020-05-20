@@ -8,7 +8,135 @@
 
 ## 面试题
 
-0519  企保科技
+##### 0520 百果园  
+
+分布式做过么？
+
+注册中心挂了怎么样？生产者消费者
+
+Linux
+
+创建一个文件  touch  mkdir
+
+修改文件内容   Vim
+
+Mysql的事物隔离级别，区别？
+
+脏读和幻读是什么？
+
+数据库引擎
+
+binlog  redolog 
+
+索引的数据结构？为什么是b tree
+
+rpc是什么？中文翻译？远程过程调用
+
+Spring事物传播机制
+
+Spring aop 带来什么问题
+
+Java自带的命令 
+
+Mq用途
+
+Mq遇到哪些问题？
+
+Mq数据丢失？
+
+Mq重复消费
+
+Jvm内存模型，
+
+方法区， 永生带，元空间是都什么东西
+
+一个对象从创建到销毁，在jvm中经历了哪些过程
+
+索引失效的情况 
+
+Left join 和innerjoin 的区别
+
+##### 深圳航信
+
+Bean的五个作用域
+
+Java设计模式
+
+Java设计原则  开闭原则，单一逻辑职责，
+
+Thread start  run的区别
+
+Thread runable的区别
+
+线程池里哪些实现类？
+
+怎么确定最大最大线程数
+
+Nio和bio
+
+Bio同步阻塞的。
+
+乐观锁悲观锁？
+
+设计模式
+
+Redis用到哪些 
+
+Redis缓存血崩，redis缓存穿透
+
+Spring cloud组件,网关spring  gateway 或者zull
+
+Feign 底层是什么？调用方式？
+
+怎么将feign流程完成？？  过程讲一下
+
+申朴信息，
+
+线程池 讲一下  
+
+多线程的源码
+
+##### 0519和合信诺   (一直在引导我, 感觉缺人
+
+数据量大，拆表
+
+Jvm
+
+栈溢出怎么处理，循环引用，递归
+
+写一个class，注意什么？有两个实例如何判断指向同一个引用？
+
+Mysql存储日期类型的数据，怎么处理
+
+Date timestap
+
+Simpledateformat线程安全么，不安全
+
+Get post的理解
+
+Spring的事物怎么实现，
+
+transactional接口。
+
+Redis
+
+Oauth怎么实现的
+
+数据库  悲观锁乐观锁
+
+Currenthashmap  锁是分段锁
+
+Redission做session 设置过期时间 expire
+
+代码管控
+
+日志查看 头几行  
+
+Less more  
+
+Awk 写法比较麻烦 
+
+##### 0519  企保科技
 
  java深复制浅复制 ,复制一个类怎么处理?  克隆,  序列化
 
@@ -20,9 +148,49 @@ threadlocal这个类了解么? 数据类型什么形式的
 
  java接触到什么锁?  
 
-synchronized可以修饰静态方法么
+synchronized可以修饰静态方法么? 
 
-0519 金蝶
+synchronized 修饰静态方法和实例方法相互影响? 加锁的对象不一样
+
+volidate 怎么用? 
+
+引入volidate 解决了什么问题?虚拟机    多线程.解决可见性的问题
+
+static 可以修饰代码块么?
+
+父类 子类 构造器 静态代码块执行顺序
+
+ servlet 线程安全的么?
+
+OAuth协议? 几种实现方式?怎么交互的? 
+
+http 协议分层的,下层是什么协议?  
+
+tcp 三次握手四次挥手? 
+
+jvm ? 
+
+mysql 主从 复制策略?   binlog 
+
+zk的选举算法 ? 
+
+redis 锁怎么实现?
+
+百万千万亿级的表解决方案? 
+
+linux 
+
+awk 
+
+sed  
+
+ 一个文件复制到其他服务器命令  : 
+
+zuul和gateway的区别:
+
+io个nio的区别? 怎么用
+
+##### 0519 金蝶
 
  bean的生命周期
 
@@ -38,7 +206,7 @@ java的异常体系?
 
 nio 了解过么?
 
-int占了多少个字节
+int占了多少个字节 
 
 #### 0518    友德医面试
 
@@ -178,9 +346,7 @@ concreentHashMap为什么比hashTable 快?
 
  synchronized 重量级锁还是轻量级锁,锁升降级?
 
-  
-
-cas了解过么? cas怎么解决线程冲突
+  cas了解过么? cas怎么解决线程冲突
 
 java基础类型并发情况下使用的方法?Integer 被改写?
 
