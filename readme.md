@@ -8,7 +8,39 @@
 
 ## 面试题
 
-##### 0518    友德医面试
+0519  企保科技
+
+ java深复制浅复制 ,复制一个类怎么处理?  克隆,  序列化
+
+wait()  和 sleep() 的区别?
+
+cas 和aqs
+
+threadlocal这个类了解么? 数据类型什么形式的
+
+ java接触到什么锁?  
+
+synchronized可以修饰静态方法么
+
+0519 金蝶
+
+ bean的生命周期
+
+为什么使用currentmap 比hashtable  效率高?
+
+concureethash map会带来别的问题?
+
+统计每段的size()?
+
+aqs了解么?
+
+java的异常体系? 
+
+nio 了解过么?
+
+int占了多少个字节
+
+#### 0518    友德医面试
 
 面试官过来拿着简历看了一下问我会不会cloud 
 
