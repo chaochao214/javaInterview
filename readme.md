@@ -12,11 +12,20 @@
 
 Springboot和spring相比优缺点。 
 
+/**　
+
+​      依赖太多，一个spring boot项目就有很多M
+
+　　缺少服务的注册和发现等解决方案
+
+　　缺少监控集成方案，安全管理方案
+
+**/
 Springboot缺点，重量级和轻量级的区别？springboot重量的么？
 
-Springboot怎么自动配置？
+Springboot怎么自动配置？Springboot如果实现只引入jar包就可用
 
-Springboot如果实现只引入jar包就可用
+ @Conditional  接口实现的
 
 Springboot加载配置优先级？？
 
