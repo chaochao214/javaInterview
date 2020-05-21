@@ -8,11 +8,75 @@
 
 ## 面试题
 
+#####  0521联科科技
+
+Springboot和spring相比优缺点。 
+
+Springboot缺点，重量级和轻量级的区别？springboot重量的么？
+
+Springboot怎么自动配置？
+
+Springboot如果实现只引入jar包就可用
+
+Springboot加载配置优先级？？
+
+项目中为什么要用到rabbitmq 可以去掉么
+
+Redis缓存时间到了，内存中还有数据么，是否会删除
+
+Springbean为什么默认单例模式？
+
+单例模式 懒汉饿汉有什么问题？ 饿汉线程安全问题
+
+Arraylist底层
+
+Integer  a 100  
+
+Integer b = 100  
+
+A==b  为什么是返回true  缓存大小127
+
+##### 0521华阳国际 设计集团
+
+项目中最难的点
+
+什么是分布式
+
+分布式事物怎么实现
+
+项目中有没有用到分布式，听完我说没有兴致缺缺。
+
+##### 手付通 0521
+
+面试手续很繁琐  hr视频面试-一个小时的笔试-hr聊天--来公司挺久了没有碰到技术
+
+项目的难点
+
+项目哪些表
+
+自己实现过接口么
+
+索引的类型
+
+索引为什么快
+
+Mvn常用命令都有哪些  clean install
+
+Token了解过么，
+
+加密方式都知道什么, 加密算法 ?    AES,DES,3DES 
+
+加盐是什么
+
+表怎么设计的
+
+ 
+
 ##### 0520 百果园  
 
 分布式做过么？
 
-注册中心挂了怎么样？生产者消费者
+注册中心挂了怎么样？ > 地址不变就可以通
 
 Linux
 
@@ -20,35 +84,37 @@ Linux
 
 修改文件内容   Vim
 
-Mysql的事物隔离级别，区别？
+Mysql的事物隔离级别，区别？ https://www.cnblogs.com/jian-gao/p/10795407.html 
 
 脏读和幻读是什么？
 
 数据库引擎
 
-binlog  redolog 
+binlog  redolog   https://www.cnblogs.com/kongzhongqijing/articles/7905051.html 
 
-索引的数据结构？为什么是b tree
+索引的数据结构？为什么是b tree  
 
 rpc是什么？中文翻译？远程过程调用
 
-Spring事物传播机制
+Spring事物传播机制  https://www.cnblogs.com/fxtx/p/11630331.html 
 
-Spring aop 带来什么问题
+Spring aop 带来什么问题  
 
-Java自带的命令 
+Java自带的命令     https://blog.csdn.net/qq_31156277/article/details/80035236 
 
-Mq用途
+jps  jsat   jinfo  jmap  jstack 
+
+Mq用途 
 
 Mq遇到哪些问题？
 
-Mq数据丢失？
+Mq数据丢失？ack
 
-Mq重复消费
+Mq重复消费  > amqp消费者消费者确认机制
 
 Jvm内存模型，
 
-方法区， 永生带，元空间是都什么东西
+方法区， 永生带，元空间是都什么东西?   https://blog.csdn.net/u011635492/article/details/81046174 
 
 一个对象从创建到销毁，在jvm中经历了哪些过程
 
