@@ -29,6 +29,8 @@ Springboot怎么自动配置？Springboot如果实现只引入jar包就可用
 
 Springboot加载配置优先级？？
 
+ https://www.cnblogs.com/jun1019/p/10893661.html 
+
 项目中为什么要用到rabbitmq 可以去掉么
 
 Redis缓存时间到了，内存中还有数据么，是否会删除
@@ -37,7 +39,7 @@ Springbean为什么默认单例模式？
 
 单例模式 懒汉饿汉有什么问题？ 饿汉线程安全问题
 
-Arraylist底层
+Arraylist底层,默认长度多少?怎么扩容? 
 
 Integer  a 100  
 
