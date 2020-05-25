@@ -8,6 +8,62 @@
 
 ## 面试题
 
+##### 0525  店小蜜 周一 上午 
+
+笔试 
+
+很多简单的笔试题, 大概是
+
+ 手写单例 /冒泡排序, hr简单聊了一下,让我回去了,没有技术面试
+
+##### 0525    牧原数字技术    
+
+char数字类型可以存数字么,为什么? 
+
+java集合 
+
+juc包 下常用的类?
+
+ 线程池下executor 的futre方法? (听不太清
+
+executorService 用过么?
+
+ 线程池具体 怎么使用 ? 
+
+ java怎么加载一个类?
+
+ 反射怎么加载类? 
+
+wait   notify为什么放在 Object 下? 
+
+java几个类加载器? 类加载方式? 
+
+动态代理和静态代理的区别?
+
+jdk哪个接口实现动态代理? 
+
+自定义注解? 怎么写?
+
+spring 的事务管理机制是什么形式的?怎么理解spring的事务管理, 和数据库的事务管理的区别?
+
+shiro用过么?
+
+写sql,    id   name   (a b b c c d d e e f f )
+
+ 查询name元素出现的次数 ? select a.*, count(name) from a  group by name    
+
+  过滤次数大于二的? select a.*, count(name) from a where  count(num)>1  group by  name    
+
+where可以和group by 一起使用么?
+
+用过哪些框架? 
+
+##### 0522 极简汇率    
+
+问了springcloud的一些东西,没怎么问技术 .
+
+ hr给offer的时候一直压价,说自己公司管饭, 地方偏僻消费水平低,最后给的薪资有点低
+
 #####  0521联科科技
 
 Springboot和spring相比优缺点。 
